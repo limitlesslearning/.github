@@ -1,0 +1,34 @@
+name: Sync labels
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/labels.yml"
+      - ".github/workflows/sync-labels.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    name: Sync labels to org repos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Declarative multi-repo label sync (single-repo labelers cannot retarget
+      # GITHUB_REPOSITORY). Requires org secret LABEL_SYNC_TOKEN.
+      - name: Sync labels
+        uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: .github/labels.yml
+          prune: true
+          token: ${{ secrets.LABEL_SYNC_TOKEN }}
+          repository: |
+            limitlesslearning/.github
+            limitlesslearning/docs
+            limitlesslearning/platform
