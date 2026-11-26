@@ -1,0 +1,63 @@
+name: RFC / decision proposal
+description: Propose a cross-cutting decision to be recorded in the Decision log
+title: "[RFC]: "
+labels: ["rfc", "needs-triage"]
+body:
+  - type: input
+    id: title_summary
+    attributes:
+      label: Decision title
+      description: Short name for the Decision log row if accepted.
+      placeholder: e.g. Use SurrealDB as the system of record for the knowledge graph
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Relevant phase
+      options:
+        - Phase 0 - Documentation
+        - Phase 1 - MVP
+        - Phase 2 - Expansion
+        - Phase 3 - Economy & Governance
+        - Phase 4 - Global Scale
+        - Cross-phase
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is a decision needed now?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should we lock? Be specific and testable.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Options considered and why they were not preferred.
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Impact on licenses, architecture, community, or roadmap.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked the Decision log for related or conflicting locked decisions
+          required: true
+        - label: If reopening a locked decision, I provide new evidence in this issue
+          required: true
