@@ -1,5 +1,5 @@
 {
-  "name": "Add to Limitless Learning project",
+  "name": "Add to Klados project",
   "description": "Add new issues and pull requests to https://github.com/orgs/limitlesslearning/projects/1. Requires secret ADD_TO_PROJECT_TOKEN.",
   "iconName": "octicon-project",
   "categories": ["Automation", "Issue tracking"]

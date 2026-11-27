@@ -1,6 +1,13 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/lockup-horizontal-inverse.svg">
+    <img src="assets/brand/lockup-horizontal-ink.svg" alt="Klados" height="64">
+  </picture>
+</p>
+
 # limitlesslearning/.github
 
-Organization-wide defaults for [Limitless Learning](https://github.com/limitlesslearning): community health files, issue/PR templates, label taxonomy, and reusable workflow templates.
+Organization-wide defaults for [Klados](https://github.com/limitlesslearning): community health files, issue/PR templates, label taxonomy, and reusable workflow templates.
 
 Org profile README: [`profile/README.md`](./profile/README.md) (appears on [github.com/limitlesslearning](https://github.com/limitlesslearning)).
 
@@ -58,7 +65,7 @@ GitHub Free allows one built-in auto-add workflow per project (used by `docs`). 
    - **Projects:** Read and write
 6. Org secret name: `ADD_TO_PROJECT_TOKEN`
 7. In each repo that needs it (start with `platform`):
-   - **Add file → Create new file** from the org workflow template **Add to Limitless Learning project**, or copy [`workflow-templates/add-to-project.yml`](./workflow-templates/add-to-project.yml) to `.github/workflows/add-to-project.yml`
+   - **Add file → Create new file** from the org workflow template **Add to Klados project**, or copy [`workflow-templates/add-to-project.yml`](./workflow-templates/add-to-project.yml) to `.github/workflows/add-to-project.yml`
    - Ensure the repo can use the org secret (org secret repository access includes that repo)
 
 ### 3. Optional hardening
@@ -71,4 +78,5 @@ GitHub Free allows one built-in auto-add workflow per project (used by `docs`). 
 
 - Docs site: [https://limitlesslearning.github.io/docs/](https://limitlesslearning.github.io/docs/)
 - Project board: [https://github.com/orgs/limitlesslearning/projects/1](https://github.com/orgs/limitlesslearning/projects/1)
+- Logo use: [docs/brand/USAGE.md](./docs/brand/USAGE.md) · [Brand guide](./docs/brand/BRAND.md)
 - Licenses: code **MIT**; content **CC BY-SA 4.0**
