@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping build Limitless Learning. Participation is governed by our [Code of Conduct](./CODE_OF_CONDUCT.md).
+Thank you for helping build Klados. Participation is governed by our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Quick start
 

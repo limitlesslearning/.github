@@ -1,6 +1,6 @@
 # Governance
 
-Limitless Learning aims for open, community-governed stewardship as described in the [Platform Bible](https://limitlesslearning.github.io/docs/). Governance matures with the roadmap phases.
+Klados aims for open, community-governed stewardship as described in the [Platform Bible](https://limitlesslearning.github.io/docs/). Governance matures with the roadmap phases.
 
 ## Phase 0 — Documentation (current)
 

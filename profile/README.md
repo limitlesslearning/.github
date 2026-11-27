@@ -1,8 +1,15 @@
-# Limitless Learning
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/brand/lockup-horizontal-inverse.svg">
+    <img src="../assets/brand/lockup-horizontal-ink.svg" alt="Klados" height="64">
+  </picture>
+</p>
+
+# Klados
 
 **Free for learners. Open source. Built around mastery.**
 
-Limitless Learning is a global knowledge graph that maps concepts as mastery nodes with explicit prerequisites — not siloed courses. Learners advance when they prove competency, earn verifiable credentials, and connect those credentials to real jobs.
+Klados is a global knowledge graph that maps concepts as mastery nodes with explicit prerequisites — not siloed courses. Learners advance when they prove competency, earn verifiable credentials, and connect those credentials to real jobs.
 
 ## What we believe
 
@@ -23,7 +30,8 @@ Limitless Learning is a global knowledge graph that maps concepts as mastery nod
 ## Start here
 
 - **Docs (Platform Bible):** [https://limitlesslearning.github.io/docs/](https://limitlesslearning.github.io/docs/)
-- **Project board:** [Limitless Learning](https://github.com/orgs/limitlesslearning/projects/1)
+- **Project board:** [Klados](https://github.com/orgs/limitlesslearning/projects/1)
+- **Logo use:** [USAGE.md](https://github.com/limitlesslearning/.github/blob/main/docs/brand/USAGE.md)
 - **How to contribute:** [CONTRIBUTING.md](https://github.com/limitlesslearning/.github/blob/main/CONTRIBUTING.md)
 - **Code of conduct:** [CODE_OF_CONDUCT.md](https://github.com/limitlesslearning/.github/blob/main/CODE_OF_CONDUCT.md)
 - **Governance:** [GOVERNANCE.md](https://github.com/limitlesslearning/.github/blob/main/GOVERNANCE.md)
