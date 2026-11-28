@@ -23,13 +23,13 @@ Klados is a global knowledge graph that maps concepts as mastery nodes with expl
 
 | Repo | Role |
 | --- | --- |
-| [`docs`](https://github.com/limitlesslearning/docs) | Platform Bible & documentation site ([live](https://limitlesslearning.github.io/docs/)) |
+| [`docs`](https://github.com/limitlesslearning/docs) | Klados Handbook & documentation site ([live](https://limitlesslearning.github.io/docs/)) |
 | [`platform`](https://github.com/limitlesslearning/platform) | Product application (planned: SurrealDB · ElysiaJS · Tauri · Svelte) |
 | [`.github`](https://github.com/limitlesslearning/.github) | Org-wide community health files, labels, and workflow templates |
 
 ## Start here
 
-- **Docs (Platform Bible):** [https://limitlesslearning.github.io/docs/](https://limitlesslearning.github.io/docs/)
+- **Docs (Klados Handbook):** [https://limitlesslearning.github.io/docs/](https://limitlesslearning.github.io/docs/)
 - **Project board:** [Klados](https://github.com/orgs/limitlesslearning/projects/1)
 - **Logo use:** [USAGE.md](https://github.com/limitlesslearning/.github/blob/main/docs/brand/USAGE.md)
 - **How to contribute:** [CONTRIBUTING.md](https://github.com/limitlesslearning/.github/blob/main/CONTRIBUTING.md)
@@ -45,7 +45,7 @@ Klados is a global knowledge graph that maps concepts as mastery nodes with expl
 
 ## Get involved
 
-1. Read the [Platform Bible](https://limitlesslearning.github.io/docs/).
+1. Read the [Klados Handbook](https://limitlesslearning.github.io/docs/).
 2. Browse [open issues](https://github.com/orgs/limitlesslearning/projects/1), especially those labeled `good first issue`.
 3. Comment on an issue to request assignment, then open a focused PR.
 

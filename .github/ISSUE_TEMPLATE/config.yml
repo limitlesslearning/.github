@@ -1,11 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Platform Bible / docs site
+  - name: Start a discussion
+    url: https://github.com/limitlesslearning/docs/discussions
+    about: Questions, first ideas, and the smallest first step — start here before opening an issue.
+  - name: Klados Handbook / docs site
     url: https://limitlesslearning.github.io/docs/
-    about: Read vision, roadmap, status, and the Decision log before opening an RFC.
+    about: Read the Handbook, roadmap, status, and the Decision log before opening an RFC.
   - name: Project board
     url: https://github.com/orgs/limitlesslearning/projects/1
     about: See Backlog / Ready / In progress work across the organization.
   - name: Security vulnerability
     url: https://github.com/limitlesslearning/.github/blob/main/SECURITY.md
-    about: Report security issues privately — do not open a public issue.
+    about: Report security issues privately — do not open a public issue. Use Security → Report a vulnerability on the affected repository when that is enabled.

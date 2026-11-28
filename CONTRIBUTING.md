@@ -2,15 +2,26 @@
 
 Thank you for helping build Klados. Participation is governed by our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
+## Start with a discussion
+
+Please [open a discussion](https://github.com/limitlesslearning/docs/discussions) before opening an issue, unless you are reporting a clear bug or a maintainer has asked you to file one. Issues are for work that has already been agreed, and each one uses a template.
+
+- **Questions** and first ideas belong in Discussions.
+- **Translation offers** can start as a discussion or use the Translation offer issue form.
+- **Security problems** must be reported privately — see [SECURITY.md](./SECURITY.md). Never post them in a public issue or discussion.
+
+Nobody from Klados will ask for your passwords, keys, or tokens, in an issue or anywhere else.
+
 ## Quick start
 
-1. Find work on the [project board](https://github.com/orgs/limitlesslearning/projects/1) or repo issues.
-2. Prefer issues labeled `good first issue` or `help wanted` if you are new.
-3. Comment on the issue asking to be assigned; wait for assignment before large work.
-4. Fork the repo (or branch, if you have write access).
-5. Create a branch: `type/short-description` (e.g. `docs/fix-typo`, `feat/add-node-api`, `fix/login-crash`).
-6. Commit with [Conventional Commits](https://www.conventionalcommits.org/) and **DCO sign-off** (`git commit -s`).
-7. Open a small, focused PR using the template; link the issue with `Closes #N`.
+1. For questions or a first idea, [start a discussion](https://github.com/limitlesslearning/docs/discussions).
+2. Find agreed work on the [project board](https://github.com/orgs/limitlesslearning/projects/1) or repo issues.
+3. Prefer issues labeled `good first issue` or `help wanted` if you are new.
+4. Comment on the issue asking to be assigned; wait for assignment before large work.
+5. Fork the repo (or branch, if you have write access).
+6. Create a branch: `type/short-description` (e.g. `docs/fix-typo`, `feat/add-node-api`, `fix/login-crash`).
+7. Commit with [Conventional Commits](https://www.conventionalcommits.org/) and **DCO sign-off** (`git commit -s`).
+8. Open a small, focused PR using the template; link the issue with `Closes #N`.
 
 ## Find and claim an issue
 
@@ -41,7 +52,7 @@ Optional body.
 Closes #123
 ```
 
-Examples: `docs(bible): draft assessment section`, `fix(graph): correct prerequisite edge`.
+Examples: `docs(handbook): draft assessment section`, `fix(graph): correct prerequisite edge`.
 
 ## DCO sign-off
 
@@ -103,20 +114,25 @@ Issue forms apply the matching **type** label automatically. Triagers add priori
 
 Primary repo: [`limitlesslearning/docs`](https://github.com/limitlesslearning/docs) → [live site](https://limitlesslearning.github.io/docs/).
 
-1. Use the **Content proposal** issue form, or open a PR that edits the relevant Markdown under `src/routes/`.
+1. Start with a [discussion](https://github.com/limitlesslearning/docs/discussions) if the work is not yet agreed, then use the **Content proposal** issue form, or open a PR that edits the relevant Markdown under `src/routes/`.
 2. Preserve substance; do not invent facts or statistics.
 3. Mark open questions as questions — never as locked decisions.
 4. Update the [Status](https://limitlesslearning.github.io/docs/status/) page if a section’s draft state changes.
 5. For new locked decisions, add a row to the [Decision log](https://limitlesslearning.github.io/docs/decisions/) (do not silently rewrite history).
+6. To offer a translation, start a discussion or use the **Translation offer** issue form. Check how the name reads in your language (current typography samples: Malayalam ക്ലാഡോസ് and Devanagari क्लाडोस, still pending a native-reader check), translate a page, or review someone else’s translation.
 
-### Content licensing
+### Licences
 
-| License | Rule |
+By contributing, you agree that your contribution is licensed as follows. The split is locked as decision 7 (Q9) in the [Decision log](https://limitlesslearning.github.io/docs/decisions/).
+
+| What | Licence |
 | --- | --- |
-| Code / config | Contributed under **MIT** |
-| Docs & educational text we author | Contributed under **CC BY-SA 4.0** |
+| Platform server | **AGPL-3.0** |
+| SDKs | **MIT** |
+| Documentation site code and configuration | **MIT** |
+| Docs and educational text we author | **CC BY-SA 4.0** |
 
-**Copying external material into the repo or Platform Bible:**
+**Copying external material into the repo or Klados Handbook:**
 
 | Allowed to copy (with attribution / share-alike as required) | Link only — do not copy text into our content |
 | --- | --- |
@@ -131,7 +147,7 @@ Additional rules:
 
 ## How decisions are made
 
-1. Open an **RFC / decision proposal** (issue form) or a PR that updates docs.
+1. Start a discussion, then open an **RFC / decision proposal** (issue form) or a PR that updates docs.
 2. Discuss openly until trade-offs are clear.
 3. A maintainer records the outcome in the [Decision log](https://limitlesslearning.github.io/docs/decisions/).
 4. **Locked decisions are not reopened** without new evidence; supersede with a new log entry referencing the old `#`.
@@ -145,4 +161,4 @@ See [GOVERNANCE.md](./GOVERNANCE.md) for roles and Phase 0 maintainer authority.
 
 ## Questions
 
-Use [SUPPORT.md](./SUPPORT.md). Security issues: [SECURITY.md](./SECURITY.md) only.
+Start with a [discussion](https://github.com/limitlesslearning/docs/discussions), or see [SUPPORT.md](./SUPPORT.md). Security issues: [SECURITY.md](./SECURITY.md) only.

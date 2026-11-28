@@ -8,10 +8,12 @@ Security updates apply to the default branch (`main`) of each public repository 
 
 **Do not open a public issue for security vulnerabilities.**
 
-Report privately using one of these channels:
+Report privately using one of these channels. **Do not open a public issue or discussion.**
 
-1. **GitHub private vulnerability reporting** — on the affected repository, open **Security → Report a vulnerability** (preferred when enabled).
-2. **Maintainer contact** — message [@capsmagick](https://github.com/capsmagick) on GitHub. Do not send personal email.
+1. **GitHub private vulnerability reporting** (preferred) — on the affected repository, open **Security → Report a vulnerability**. Direct forms, once enabled:
+   - [docs](https://github.com/limitlesslearning/docs/security/advisories/new)
+   - [platform](https://github.com/limitlesslearning/platform/security/advisories/new)
+2. **Maintainer contact** — if that form is not available yet, message [@capsmagick](https://github.com/capsmagick) on GitHub. Do not send personal email, and never share passwords, keys, or tokens.
 
 Please include:
 

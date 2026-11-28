@@ -13,7 +13,7 @@
   description: "Documentation site or contributor docs"
 - name: "content"
   color: "1d76db"
-  description: "Platform Bible or educational content"
+  description: "Klados Handbook or educational content"
 - name: "rfc"
   color: "5319e7"
   description: "Decision / RFC proposal"
@@ -47,7 +47,7 @@
 # --- Area ---
 - name: "area:docs"
   color: "0075ca"
-  description: "Documentation site / Platform Bible publishing"
+  description: "Documentation site / Klados Handbook publishing"
 - name: "area:graph"
   color: "0052cc"
   description: "Knowledge graph model and prerequisites"

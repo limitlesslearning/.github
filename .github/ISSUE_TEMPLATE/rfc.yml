@@ -3,6 +3,10 @@ description: Propose a cross-cutting decision to be recorded in the Decision log
 title: "[RFC]: "
 labels: ["rfc", "needs-triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please [start a discussion](https://github.com/limitlesslearning/docs/discussions) first unless a maintainer asked you to open this issue. Issues are for work that has been agreed.
   - type: input
     id: title_summary
     attributes:
@@ -60,4 +64,6 @@ body:
         - label: I checked the Decision log for related or conflicting locked decisions
           required: true
         - label: If reopening a locked decision, I provide new evidence in this issue
+          required: true
+        - label: I started a Discussion first, or a maintainer asked me to open this issue
           required: true

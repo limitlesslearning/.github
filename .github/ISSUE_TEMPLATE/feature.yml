@@ -3,6 +3,10 @@ description: Propose a new capability or improvement
 title: "[Feature]: "
 labels: ["feature", "needs-triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please [start a discussion](https://github.com/limitlesslearning/docs/discussions) first unless a maintainer asked you to open this issue. Issues are for work that has been agreed.
   - type: dropdown
     id: repo
     attributes:
@@ -58,4 +62,6 @@ body:
         - label: I searched existing issues and the project board for duplicates
           required: true
         - label: This does not conflict with a locked Decision log entry (or I explain new evidence)
+          required: true
+        - label: I started a Discussion first, or a maintainer asked me to open this issue
           required: true
