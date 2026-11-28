@@ -1,13 +1,17 @@
 name: Content proposal
-description: Propose new or revised Platform Bible / educational content
+description: Propose new or revised Klados Handbook / educational content
 title: "[Content]: "
 labels: ["content", "needs-triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please [start a discussion](https://github.com/limitlesslearning/docs/discussions) first unless a maintainer asked you to open this issue. Issues are for work that has been agreed.
   - type: dropdown
     id: section
     attributes:
-      label: Related Bible section
-      description: Which Platform Bible section does this proposal affect?
+      label: Related Handbook section
+      description: Which Klados Handbook section does this proposal affect?
       options:
         - "1. Front Matter"
         - "2. Vision, Mission & Principles"
@@ -57,4 +61,6 @@ body:
         - label: Any copied text is CC BY-SA–compatible (or CC0); non-commercial sources are link-only
           required: true
         - label: I will not use Khan Academy content for AI training or scraping
+          required: true
+        - label: I started a Discussion first, or a maintainer asked me to open this issue
           required: true

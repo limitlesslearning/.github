@@ -1,6 +1,6 @@
 # Governance
 
-Klados aims for open, community-governed stewardship as described in the [Platform Bible](https://limitlesslearning.github.io/docs/). Governance matures with the roadmap phases.
+Klados aims for open, community-governed stewardship as described in the [Klados Handbook](https://limitlesslearning.github.io/docs/). Governance matures with the roadmap phases.
 
 ## Phase 0 — Documentation (current)
 
@@ -17,13 +17,13 @@ In Phase 0 the founder-maintainer:
 
 ## Path to community governance
 
-Per the manifesto and Platform Bible governance section:
+Per the manifesto and Klados Handbook governance section:
 
 1. **Phase 0–1** — Maintainer-led decisions; community proposals via RFCs and PRs.
 2. **Phase 2+** — Expand reviewer/moderator hierarchy; documented standards maintenance.
 3. **Later phases** — Broader community and economy-aligned governance (including future DAO-style mechanisms where appropriate). Timing and mechanics will be recorded as locked decisions — not assumed here.
 
-Stub sections in the Bible that still say *needs drafting* are open questions, not policy.
+Stub sections in the Handbook that still say *needs drafting* are open questions, not policy.
 
 ## Roles
 
